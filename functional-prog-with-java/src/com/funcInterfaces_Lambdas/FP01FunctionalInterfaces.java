@@ -53,7 +53,8 @@ public class FP01FunctionalInterfaces {
 		 * 
 		 * };
 		 */
-		numbers.stream().filter(isEvenPredicate)// lambda exp
+		numbers.stream()
+				.filter(isEvenPredicate)// lambda exp
 				.map(sqareFunciton)// lambda exp
 				.forEach(action);// method ref.
 	}
